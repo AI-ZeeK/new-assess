@@ -162,7 +162,7 @@ function App() {
             <div className={`flex justify-between items-center w-full`}>
               <div className={`flex justify-center text-xl items-center gap-2`}>
                 <div
-                  className={`p-3 rounded-full text-2xl text-white bg-blue-800`}
+                  className={`p-3 rounded-full lg:text-2xl sm:text-xl text-lg text-white bg-blue-800`}
                 >
                   <BsFillCreditCard2BackFill />{" "}
                 </div>
@@ -170,7 +170,9 @@ function App() {
                   AceCoin<span className={`font-normal`}>Pay</span>
                 </p>
               </div>
-              <div className={`flex justify-center items-center gap-1`}>
+              <div
+                className={`flex justify-center text-sm sm:text-md items-center gap-1`}
+              >
                 <div
                   className={`w-8 h-8 text-white bg-blue-800 flex justify-center items-center rounded-sm`}
                 >
