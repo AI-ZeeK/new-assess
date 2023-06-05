@@ -143,7 +143,7 @@ function App() {
     >
       <div
         ref={cardRef}
-        className={`bg-white flex min-h-screen lg:min-h-full lg:h-full justify-center gap-4 flex-col items-center lg:border lg:rounded-md lg:shadow-md w-full p-4 md:p-8 max-w-[80rem] relative ${
+        className={`bg-white flex min-h-screen lg:min-h-full lg:h-full justify-center gap-8 lg:gap-8 sm:gap-4 flex-col items-center lg:border lg:rounded-md lg:shadow-md w-full p-4 md:p-8 max-w-[80rem] relative ${
           openCard ? "opacity-0 -top-10" : "opacity-1 top-0"
         } transition-all duration-300`}
       >
